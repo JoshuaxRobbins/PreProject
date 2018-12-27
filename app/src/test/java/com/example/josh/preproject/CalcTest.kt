@@ -19,4 +19,10 @@ class CalcTest {
         var i = Calculation.addNumbers(9,10)
         assert(i == 20)
     }
+
+    @Test
+    fun testsWork3(){
+        var i = Calculation.addNumbers(9,10)
+        assert(i == 19)
+    }
 }
